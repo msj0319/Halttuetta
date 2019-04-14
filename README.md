@@ -7,3 +7,4 @@
 - branch name : dev
 - 2019.04.10
 - 2019.04.11 full-req test by temper
+- 2019.04.13 design prototype by kkangjee
