@@ -19,14 +19,25 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //show
         item1.setOnClickListener {
             //toast("눌렀어")
             val intent:Intent = Intent(this, ShowActivity::class.java)
             startActivity(intent)
         }
 
-
-
+        var qustn =arrayOf("aaa", "bbb", "ccc","ddd","eee")
+        for(i in 0 until qustn.size){
+            val btn = Button(this)
+            // setting layout_width and layout_height using layout parameters
+            btn.layoutParams = LayoutParams(WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+            btn.text = qustn.get(i)
+            // add Button to LinearLayout
+            //for(i in 1..3) {
+            ll1.addView(btn)
+            //}
+        }
+        /*
         bt1.setOnClickListener {
             val btn = Button(this)
             // setting layout_width and layout_height using layout parameters
@@ -36,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             //for(i in 1..3) {
                 ll1.addView(btn)
             //}
-        }
+        }*/
         // creating the button
 
 
