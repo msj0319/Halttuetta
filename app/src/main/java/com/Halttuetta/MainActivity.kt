@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        var qustn =arrayOf("aaa", "bbb", "ccc","ddd","eee")
+        var qustn =arrayOf("aaa", "bbb", "ccc","ddd","eee","FF","GG","HH","II","JJ","KK")
         for(i in 0 until qustn.size){
             val btn = Button(this)
             // setting layout_width and layout_height using layout parameters
