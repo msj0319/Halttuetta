@@ -28,7 +28,7 @@
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="10dp"
-                android:text="검색버튼"/>
+                android:text="검색버튼" android:id="@+id/search"/>
     </LinearLayout>
 
     <LinearLayout
@@ -41,18 +41,7 @@
                 android:layout_height="match_parent">
             <LinearLayout android:layout_width="match_parent"
                           android:layout_height="wrap_content"
-                          android:orientation="vertical" android:id="@+id/ll1">
-                <TextView android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:text="item1"
-                          android:textSize="30dp" android:id="@+id/item1"/>
-                <Button android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="item1"
-                        android:textSize="30dp"
-                        android:id="@+id/bt1"/>
-
-            </LinearLayout>
+                          android:orientation="vertical" android:id="@+id/ll1"/>
         </ScrollView>
     </LinearLayout>
 </LinearLayout>

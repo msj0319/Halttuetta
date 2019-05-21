@@ -9,7 +9,7 @@
             android:textSize="50dp"
             android:layout_margin="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/textView"/>
+            android:layout_height="wrap_content" android:id="@+id/tv_show1"/>
     <ScrollView
             android:layout_width="match_parent"
             android:layout_height="560dp">
@@ -19,7 +19,7 @@
                 android:text="@string/word"
                 android:textSize="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView2"/>
+                android:layout_height="wrap_content" android:id="@+id/tv_show2"/>
     </ScrollView>
     <LinearLayout
             android:orientation="horizontal"
