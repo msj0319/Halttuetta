@@ -12,37 +12,19 @@ class ShowActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_show)
-        var word = intent.extras.get("word") as? Word
-        //var name = word?.name
-        //var name = intent.extras.get("word") as? Word
-        //var explain = word?.explain
-        //var explain = intent.extras.get("word") as? Word
-        tv_show1.text = intent.getStringExtra(word?.name)
+        val word1 = intent.getSerializableExtra("word") as Word
+        var test = word1?.name
+        if (test != null) {
+            toast("성공")
+        }
+        else{
+            toast("안넘어옴")
+        }
+        tv_show1.text = word1?.name
 
-        tv_show2.text = intent.getStringExtra(word?.explain)
-        //tv_show2.text = intent.getStringExtra("설명들")
-        /* "nameKey"라는 이름의 key에 저장된 값이 있다면
-           textView의 내용을 "nameKey" key에서 꺼내온 값으로 바꾼다 */
-
+        tv_show2.text = word1?.explain
 
     }
 
 }
-//class ShowActivity : AppCompatActivity() {
-//
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_show)
-//        if (intent.hasExtra("wordName")) {
-//            tv_show1.text = intent.getStringExtra("wordName")
-//            tv_show2.text = intent.getStringExtra("설명들")
-//            /* "nameKey"라는 이름의 key에 저장된 값이 있다면
-//               textView의 내용을 "nameKey" key에서 꺼내온 값으로 바꾼다 */
-//
-//        } else {
-//            toast("전달된 메세지가 없습니다.")
-//        }
-//    }
-//
-//}
 

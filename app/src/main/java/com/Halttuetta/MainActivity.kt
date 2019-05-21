@@ -14,70 +14,45 @@ import java.io.Serializable
 
 class MainActivity : AppCompatActivity() {
 
-    var context : Context? = null
-    var cnt:Int=0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //show
-        /*
-        item1.setOnClickListener {
-            //toast("눌렀어")
-            val intent:Intent = Intent(this, ShowActivity::class.java)
-            startActivity(intent)
-        }
-        */
-
-//        var qustn =arrayOf("aaa", "bbb", "ccc","ddd","eee","FF","GG","HH","II","JJ","KK")
-//        for(i in 0 until qustn.size){
+        /*val Root = Word()
+        Project.CreateTree(Root)*/
+        //테스트 변수//var qustn = arrayOf("aaa", "bbb", "ccc", "ddd", "eee", "FF", "GG", "HH", "II", "JJ", "KK")
+        //val word = Word("c언어", "블라블라", null, null)//word 객체
+        //테스트 for문
+//        for (i in 0 until qustn.size) {
 //            val btn = Button(this)
 //
 //            btn.layoutParams = LayoutParams(WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-//            btn.text = qustn.get(i)
+//            btn.text = qustn[i]
 //
 //            btn.setOnClickListener {
 //                toast("눌렀어")
-//                val intent:Intent = Intent(this, ShowActivity::class.java)
-//                intent.putExtra("wordName", qustn.get(i))
+//                //val intent = conveyWord(this,word)
+//                val intent = Intent(this, ShowActivity::class.java)
+//                intent.putExtra("word", word)
 //                startActivity(intent)
 //            }
 //            ll1.addView(btn)
 //
 //        }
-
-        var qustn =arrayOf("aaa", "bbb", "ccc","ddd","eee","FF","GG","HH","II","JJ","KK")
-        val word = Word("c언어","블라블라",null,null)
-        for(i in 0 until qustn.size){
-            val btn = Button(this)
-
-            btn.layoutParams = LayoutParams(WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-            btn.text = qustn[i]
-
-            btn.setOnClickListener {
-                toast("눌렀어")
-                //val intent = conveyWord(this,word)
-                val intent = Intent(this, ShowActivity::class.java)
-                intent.putExtra("word",word as Serializable)
-                startActivity(intent)
-            }
-            ll1.addView(btn)
-
-        }
         search.setOnClickListener {
             val intent = Intent(this, ShowActivity::class.java)
-            intent.putExtra("word",word as Serializable)
+            intent.putExtra("word", word)
             startActivity(intent)
         }
-
-
-
-
 
 
     }
 
 
-
-
-
 }
+
+
+
+
+
+
