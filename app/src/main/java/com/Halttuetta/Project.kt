@@ -74,10 +74,10 @@ object Project {
         val level2_word3_word2 = Word("컴퓨터네트워크", level1_word3)
         level1_word3.addlist(level2_word3_word2)                           //3학년에서 갈라지는 2개의 가지(운영체제, 컴퓨터네트워크)
         //3층
-        val level2_word1_word1_word1 = Word("if문", "설명", level2_word1_word1)
-        level2_word1_word1.addlist(level2_word1_word1_word1)
-        val level2_word1_word1_word2 = Word("for문", "설명", level2_word1_word1)
-        level2_word1_word1.addlist(level2_word1_word1_word2)                  //C프로그래밍 가지 (if문, 설명) Show함수 할 때 사용할것임(말단 노드란 뜻임)
+//        val level2_word1_word1_word1 = Word("if문", "설명", level2_word1_word1)
+//        level2_word1_word1.addlist(level2_word1_word1_word1)
+//        val level2_word1_word1_word2 = Word("for문", "설명", level2_word1_word1)
+//        level2_word1_word1.addlist(level2_word1_word1_word2)                  //C프로그래밍 가지 (if문, 설명) Show함수 할 때 사용할것임(말단 노드란 뜻임)
 
         //System.out.println(root.getchildlist().get(0).getname());
     }
