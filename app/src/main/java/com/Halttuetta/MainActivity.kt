@@ -1,5 +1,6 @@
 package com.Halttuetta
 
+import android.app.ProgressDialog.show
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -15,21 +16,36 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val root = Word()
+        var root = Word()
+        var nadan = Word()// 나만의 단어장
+        
         CreateTree(root)
+
+
 
         for (k in 0 until root.getchildlist().size) {//2층 갯수만큼 반복
             val btn = Button(this)
 
             btn.layoutParams = ViewGroup.LayoutParams(WRAP_CONTENT, WRAP_CONTENT)
-            btn.text = root.getchildlist()[k]?.getname()
+            var word = root.getchildlist()[k]
+            btn.text = word.getname()
+
+
 
 
             btn.setOnClickListener {
-                val intent = Intent(this, ListActivity::class.java)
-                intent.putExtra("root", root)
-                intent.putExtra("num", k)
-                startActivity(intent)
+                if(word.getchildlist().size==0) {
+                    val intent = Intent(this, ShowActivity::class.java)
+                    intent.putExtra("root", word)//루트의 자식의 0번 1번 2번의 word를 버튼에 넘긴다
+                    //intent.putExtra("num", k)
+                    startActivity(intent)
+                }
+                else{
+                    val intent = Intent(this, ListActivity::class.java)
+                    intent.putExtra("root", word)//루트의 자식의 0번 1번 2번의 word를 버튼에 넘긴다
+                    //intent.putExtra("num", k)
+                    startActivity(intent)
+                }
             }
             ll1.addView(btn)
         }

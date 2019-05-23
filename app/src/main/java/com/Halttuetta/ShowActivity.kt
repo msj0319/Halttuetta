@@ -14,14 +14,14 @@ class ShowActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_show)
-        val root = intent.getSerializableExtra("root") as Word
+        val word = intent.getSerializableExtra("root") as Word
         //val childNum = intent.getSerializableExtra("child")
-        val gaveName = intent.getSerializableExtra("giveName")as String
-        val gaveExplain = intent.getSerializableExtra("giveExplain")as String
+        //val gaveName = intent.getSerializableExtra("giveName")as String
+        //val gaveExplain = intent.getSerializableExtra("giveExplain")as String
         //for (i in 0 until root.getchildlist().size) {
         //if (childNum==i){
-        tv_show1.text = gaveName
-        tv_show2.text = gaveExplain
+        tv_show1.text = word.getname()
+        tv_show2.text = word.getexplain()
 
 
 
