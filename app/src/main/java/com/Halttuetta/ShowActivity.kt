@@ -3,6 +3,7 @@ package com.Halttuetta
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
@@ -18,6 +19,21 @@ class ShowActivity : AppCompatActivity() {
         tv_show1.text = word.getname()
         tv_show2.text = word.getexplain()
 
+        Hide.setOnClickListener {
+            ShowHide(tv_show2)
+        }
+    }
+
+    fun ShowHide(view: View) {
+        tv_show2.visibility =
+            if (tv_show2.visibility == View.VISIBLE) {
+                Hide.text = "보이기"
+                View.INVISIBLE
+            } else {
+                Hide.text = "가리기"
+                View.VISIBLE
+            }
     }
 }
+
 

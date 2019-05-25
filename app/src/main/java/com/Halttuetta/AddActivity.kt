@@ -14,7 +14,6 @@ class AddActivity : AppCompatActivity() {
 
         WordAddSubmit(word)
 
-
     }
     fun WordAddSubmit(word: Word){
         Submit_btn.setOnClickListener {

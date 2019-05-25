@@ -42,21 +42,21 @@
         <Button
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:id="@+id/button2"
+                android:id="@+id/Delete"
                 android:text="삭제"
                 android:layout_weight="1"/>
 
         <Button
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:id="@+id/button"
+                android:id="@+id/Modify"
                 android:text="수정"
                 android:layout_weight="1"/>
 
         <Button
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:id="@+id/button3"
+                android:id="@+id/Hide"
                 android:text="가리기"
                 android:layout_weight="1"/>
 
