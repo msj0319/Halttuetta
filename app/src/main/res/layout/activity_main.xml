@@ -24,7 +24,7 @@
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="10dp"
-                android:text="추가"/>
+                android:text="추가" android:id="@+id/addbtn"/>
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="10dp"

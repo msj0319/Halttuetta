@@ -9,19 +9,38 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.Button
 import com.Halttuetta.Project.CreateTree
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_show.*
 
 class MainActivity : AppCompatActivity() {
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var root = Word()
         var nadan = Word()// 나만의 단어장
-        
+
         CreateTree(root)
 
+        var word: Words? = null
+        var statuscode =intent.getIntExtra("statuscode",0) //상태코드 0 초기화. 인텐트 보낼때 함께 보내기
 
+        if(statuscode == 1) {  //ADD에서 보낸 단어 객체가 도착했다면. 버튼 이름을 추가한 단어이름으로 변경.
+            val addedbtn = Button(this) //버튼 객체 생성
+            addedbtn.layoutParams = ViewGroup.LayoutParams(WRAP_CONTENT, WRAP_CONTENT)
+
+            word = intent.getSerializableExtra("word") as Words
+            addedbtn.text = word.name
+
+            //submit 버튼을 누른만큼 추가된 단어 버튼 출력해야함.
+            //기존 단어를 보려고 할 때 단어정보가 출력이 안되는 버그.
+            addedbtn.setOnClickListener {  //생성된 단어 버튼 클릭하면 ShowActivity 실행, 추가한 단어 정보 출력
+                val intent = Intent(this, ShowActivity::class.java)
+                intent.putExtra("word", word)
+                intent.putExtra("statuscode",3)
+                startActivity(intent)
+            }
+            ll1.addView(addedbtn)
+        }
 
         for (k in 0 until root.getchildlist().size) {//2층 갯수만큼 반복
             val btn = Button(this)
@@ -29,9 +48,6 @@ class MainActivity : AppCompatActivity() {
             btn.layoutParams = ViewGroup.LayoutParams(WRAP_CONTENT, WRAP_CONTENT)
             var word = root.getchildlist()[k]
             btn.text = word.getname()
-
-
-
 
             btn.setOnClickListener {
                 if(word.getchildlist().size==0) {
@@ -48,6 +64,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             ll1.addView(btn)
+        }
+
+        //추가 버튼 리스너
+        addbtn.setOnClickListener {
+            val addintent = Intent(this, AddActivity::class.java)
+            startActivity(addintent)
         }
     }
 }
