@@ -16,6 +16,11 @@
                   android:textSize="30dp"
                   android:text="단어 계층"
                   android:id="@+id/hierarchyTag"/>
+        <Button
+                android:text="추가"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/addBtn1"
+                android:layout_marginStart="200dp" android:layout_marginLeft="30dp"/>
         <!--<view android:layout_width="0dp"
               android:layout_height="0dp"
         android:layout_weight="1">
@@ -33,7 +38,8 @@
                 android:layout_height="match_parent">
             <LinearLayout android:layout_width="match_parent"
                           android:layout_height="wrap_content"
-                          android:orientation="vertical" android:id="@+id/ll1_list"/>
+                          android:orientation="vertical" android:id="@+id/ll1_list">
+            </LinearLayout>
         </ScrollView>
     </LinearLayout>
 </LinearLayout>

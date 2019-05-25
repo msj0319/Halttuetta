@@ -27,8 +27,6 @@ class ListActivity : AppCompatActivity() {
             btn.text = word.getname()
 
 
-
-
             btn.setOnClickListener {
                 if (word.getchildlist().size == 0) {
                     val intent = Intent(this, ShowActivity::class.java)
@@ -43,48 +41,11 @@ class ListActivity : AppCompatActivity() {
                 }
             }
             ll1_list.addView(btn)
-
+        }
+        addBtn1.setOnClickListener {
+            val intent = Intent(this, AddActivity::class.java)
+            intent.putExtra("root", word)
+            startActivity(intent)
         }
     }
 }
-
-
-        //hierarchyTag.text = root.getchildlist()[childNum as Int]?.getchildlist()!!.size.toString()
-
-
-
-        /*for (j in 0 until root.getchildlist()[childNum as Int]?.getchildlist()!!.size) {
-            if (root.getchildlist()[childNum as Int]?.getchildlist()!![j]!!.getchildlist().size == 0) {//2층의 자식이 없다면, 3층까지 있는 단어
-                for (k in 0 until root.getchildlist()[childNum]?.getchildlist()!!.size) {
-                    val btn = Button(this)
-
-                    btn.layoutParams = ViewGroup.LayoutParams(
-                        ViewGroup.LayoutParams.WRAP_CONTENT,
-                        ViewGroup.LayoutParams.WRAP_CONTENT
-                    )
-                    btn.text = root.getchildlist()?.get(childNum)?.getchildlist()?.get(k)?.getname()
-
-                    btn.setOnClickListener {
-                        val intent = Intent(this, ListActivity::class.java)
-                        intent.putExtra("root", root)
-                        //intent.putExtra("num", 2)
-                        startActivity(intent)
-                    }
-                    ll1_list.addView(btn)
-
-                }
-            }
-
-//        } else {
-//            var giveName = root.getchildlist()[childNum]?.getchildlist()!![j].getchildlist()[j].getname()
-//            var giveExplain = root.getchildlist()[childNum]?.getchildlist()!![j].getchildlist()[j].getexplain()
-//
-//            val intent = Intent(this, ShowActivity::class.java)
-//            intent.putExtra("root", root)
-//            intent.putExtra("giveName", giveName)
-//            intent.putExtra("giveExplain", giveExplain)
-//            startActivity(intent)
-//        }
-        }
-    }
-}*/

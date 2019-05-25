@@ -1,44 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
-            android:text="단어"
-            android:textSize="50dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tv_show1"
             android:layout_margin="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/tv_show1"/>
-    <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="560dp">
-        <TextView
-                android:layout_marginTop="30dp"
-                android:layout_margin="20dp"
-                android:text="@string/word"
-                android:textSize="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/tv_show2"/>
-    </ScrollView>
+            android:textSize="50dp"
+            android:text="단어"/>
+
+
+            <ScrollView
+                    android:layout_height="350dp"
+                    android:layout_width="match_parent">
+
+                <TextView
+                        android:layout_height="450dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/tv_show2"
+                        android:layout_margin="20dp"
+                        android:textSize="20dp"
+                        android:text="@string/word"
+                        android:layout_marginTop="30dp"/>
+
+            </ScrollView>
+
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:layout_weight="1"></View>
     <LinearLayout
-            android:orientation="horizontal"
+            android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:orientation="horizontal"
+    >
+
+
         <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/button2"
                 android:text="삭제"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button2"/>
+                android:layout_weight="1"/>
+
         <Button
-                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/button"
                 android:text="수정"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button"/>
+                android:layout_weight="1"/>
+
         <Button
-                android:layout_weight="1"
-                android:text="가리기"
+                android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button3"/>
+                android:id="@+id/button3"
+                android:text="가리기"
+                android:layout_weight="1"/>
+
     </LinearLayout>
+
 </LinearLayout>

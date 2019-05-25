@@ -14,17 +14,10 @@ class ShowActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_show)
-        var word: Words? = null
-        var statuscode=intent.getIntExtra("statuscode",0)
+        var word = intent.getSerializableExtra("root") as Word // word객체 액티비티에서 가져오기
+        tv_show1.text = word.getname()
+        tv_show2.text = word.getexplain()
 
-        if(statuscode == 3) {
-            word = intent.getSerializableExtra("word") as Words
-
-            tv_show1.text = word.name
-            tv_show2.text = word.explain
-
-        }
     }
-
 }
 
