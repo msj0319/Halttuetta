@@ -8,3 +8,5 @@
 - 2019.04.10
 - 2019.04.11 full-req test by temper
 - 2019.04.13 design prototype by kkangjee
+
+- 2019.05.26 단어 추가 기능 구현, 하지만 앱 종료시, 뒤로가기 시 상태 저장이 안되는 문제. Hide 기능 ShowActivity에 구현
