@@ -22,6 +22,22 @@ class ShowActivity : AppCompatActivity() {
         Hide.setOnClickListener {
             ShowHide(tv_show2)
         }
+
+        Delete.setOnClickListener {
+            var word = intent.getSerializableExtra("root") as Word
+            //var word0=word.getparent()
+            var word0=delete.deleteStrong(word)!!
+
+            word.addlist(word0)
+
+            val intent = Intent(this,ListActivity::class.java) //메인에다 보낼 단어 객체 보내기
+            intent.putExtra("root", word0)
+            startActivity(intent)
+
+        }
+
+
+
     }
 
     fun ShowHide(view: View) {
@@ -34,6 +50,11 @@ class ShowActivity : AppCompatActivity() {
                 View.VISIBLE
             }
     }
+
+
+
+
+
 }
 
 

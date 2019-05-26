@@ -4,7 +4,7 @@ import android.content.Intent
 import java.io.Serializable
 import java.util.*
 
-class Word :Serializable{
+open class Word :Serializable{
     private var name: String? = null
     private var explain: String? = null
     private var parent: Word? = null
@@ -14,6 +14,12 @@ class Word :Serializable{
         this.childlist.add(Node)
         return
     }
+
+    fun getparent() : Word?{
+        return this.parent
+    }
+
+
 
     fun getchildlist(): Vector<Word> {
         return this.childlist
