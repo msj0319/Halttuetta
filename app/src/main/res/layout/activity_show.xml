@@ -54,6 +54,10 @@
                 android:layout_weight="1"/>
 
         <Button
+                android:text="이전"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/pre_show" android:layout_weight="1"/>
+        <Button
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:id="@+id/Hide"

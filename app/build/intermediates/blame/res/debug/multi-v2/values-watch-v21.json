@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\LEE SI YEON\\AndroidStudioProjects\\Halttuetta-1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LEE SI YEON\\.gradle\\caches\\transforms-2\\files-2.1\\2ee12e2906e39e60b63c11e54f436b70\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\jeehoon\\.gradle\\caches\\transforms-2\\files-2.1\\c7469481ceeb1b3824dc964cb3a1506e\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

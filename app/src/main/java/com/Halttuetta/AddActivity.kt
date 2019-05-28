@@ -3,6 +3,7 @@ package com.Halttuetta
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_add.*
 import kotlin.math.exp
 
@@ -31,5 +32,10 @@ class AddActivity : AppCompatActivity() {
             finish()
 
         }
+    }
+    override fun onBackPressed() {
+
+        Toast.makeText(applicationContext, "비활성화", Toast.LENGTH_SHORT).show()
+
     }
 }

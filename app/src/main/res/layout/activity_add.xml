@@ -33,4 +33,8 @@
             android:text="단어 추가하기"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/Submit_btn"/>
+    <Button
+            android:text="이전"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/pre_add"/>
 </LinearLayout>

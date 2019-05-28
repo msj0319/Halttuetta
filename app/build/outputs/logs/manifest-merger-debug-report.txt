@@ -1,166 +1,170 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\2ee12e2906e39e60b63c11e54f436b70\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\38100feaa7b068bc43c10239f3c92ec9\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\1339490fb4e10bd0ea27e9b1a34c5f9a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\d70c7b7d55cf5b553031bb3d9e4061dc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\43c449a0395c20d20bb9d99a7ce8059f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\23cfe82c718426e842ff63be887e3dd0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\efb0034e93c11fb658c2467144b0bd44\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\a919f1dba53b4a299e5c1e4c57b13674\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\dbf5a712424589d3cf623206ddaccd90\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\e2fec7d4fbedd8a4e820b132a4786525\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\ab0079075e0a61c55148558d0e1af4f9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\06f17dbc50d1820ee80d919d9cccb911\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\b77ec97a9c2b0086962472d4abfb381f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\92b918dd9ad3267e9fe3ca30d9543534\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\b2c1dd22e0db0df982df44898769d921\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\5bdf70a6fbd59b36e83c93e85cc18cee\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\af7f7f9c040950393ccbba89af1f05ad\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\72d39f15f114e88a20ac71395d66dac7\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\934b6a868ca08c3870db2c7ce3ee5f8b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\25a537767395af2c0eb6868b9ff7b2fe\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\52e1cc309ba1e2ad7295b11dd91b1cb0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\e7ab23c8d92a245ffd38d363e47fad97\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\54a7e91f08168649476159249834de9f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\570fade17f521deb01b8d8c46c120ffd\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\a472430423d30cf4ba276919935074a5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\038b3e478714a726e3f4b22f1a87dc1a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\bf233f914c9ac4b677118b86b9395a4c\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c7469481ceeb1b3824dc964cb3a1506e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c108f373c4f8a7aae732f992c2c94068\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\0a5cb820d053e4abe383d08d0ccca853\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\74337c4eea88dff55cbc63849083dd81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\606c80e141074e10931c8eba987b2efc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\01912150410817cf1538df57d007c4dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\0cf21220be18377c8f639146833d0adb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1d9179ff5606804bd690d45ad0f1155f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\5416dd72ca389f1b358417304075760c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\378b3917293d41ad3dffbeb3e38f9103\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7c5fb549e5ab15d0429acee65807a681\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\4603e9f36cdca74ed8a93646c2b199a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c969cd9dae29179daa54306ede434f79\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\5ddae378266d05c4e56e1429e197a0db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b7ac9bf85282c8dc45a245bda2f45ff4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1be9457d92fa6048ec4d9447e953154e\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c63c1c4b858c385f6898eb16c173178d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7232b7cf8a5a97d5e219e783b9c7ac9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b8964622b6d455242df323c406a77b02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\531f68756d079e34d97cd67fefeb1f04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\e0a47aeb6dd008691eabec4205dac159\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7c62c1069fb9166ab4a99adb6e7c7a89\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\aec61dae0bf16a878269538468e4e473\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\8ec650eb11d88de95f099099a433fc77\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\55a166ec33ad4f5acbb388254eac4bdb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\da2515d05c93f6ea11806e14e31b6998\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:3:11-35
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:3:11-35
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:5:5-25:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\38100feaa7b068bc43c10239f3c92ec9\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\38100feaa7b068bc43c10239f3c92ec9\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\5bdf70a6fbd59b36e83c93e85cc18cee\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\5bdf70a6fbd59b36e83c93e85cc18cee\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\af7f7f9c040950393ccbba89af1f05ad\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\af7f7f9c040950393ccbba89af1f05ad\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b7ac9bf85282c8dc45a245bda2f45ff4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b7ac9bf85282c8dc45a245bda2f45ff4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1be9457d92fa6048ec4d9447e953154e\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1be9457d92fa6048ec4d9447e953154e\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\5bdf70a6fbd59b36e83c93e85cc18cee\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b7ac9bf85282c8dc45a245bda2f45ff4\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:10:13-39
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:10:13-39
 	android:label
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:8:13-45
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:8:13-45
 	android:roundIcon
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:9:13-58
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:9:13-58
 	android:icon
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:7:13-47
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:7:13-47
 	android:allowBackup
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:6:13-39
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:6:13-39
 	android:theme
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:11:13-44
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.Halttuetta.IntroActivity
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:12:9-13:20
+	android:name
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:12:19-48
 activity#com.Halttuetta.AddActivity
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:12:9-13:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:14:9-15:20
 	android:name
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:12:19-46
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:14:19-46
 activity#com.Halttuetta.ListActivity
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:14:9-15:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:16:9-17:20
 	android:name
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:16:19-47
 activity#com.Halttuetta.ShowActivity
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:16:9-17:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:18:9-19:20
 	android:name
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:18:19-47
 activity#com.Halttuetta.MainActivity
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:20:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:20:17-68
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:22:17-68
 	android:name
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:22:17-76
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:24:17-76
 	android:name
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\2ee12e2906e39e60b63c11e54f436b70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\2ee12e2906e39e60b63c11e54f436b70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\38100feaa7b068bc43c10239f3c92ec9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\38100feaa7b068bc43c10239f3c92ec9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\1339490fb4e10bd0ea27e9b1a34c5f9a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\1339490fb4e10bd0ea27e9b1a34c5f9a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\d70c7b7d55cf5b553031bb3d9e4061dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\d70c7b7d55cf5b553031bb3d9e4061dc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\43c449a0395c20d20bb9d99a7ce8059f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\43c449a0395c20d20bb9d99a7ce8059f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\23cfe82c718426e842ff63be887e3dd0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\23cfe82c718426e842ff63be887e3dd0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\efb0034e93c11fb658c2467144b0bd44\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\efb0034e93c11fb658c2467144b0bd44\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\a919f1dba53b4a299e5c1e4c57b13674\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\a919f1dba53b4a299e5c1e4c57b13674\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\dbf5a712424589d3cf623206ddaccd90\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\dbf5a712424589d3cf623206ddaccd90\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\e2fec7d4fbedd8a4e820b132a4786525\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\e2fec7d4fbedd8a4e820b132a4786525\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\ab0079075e0a61c55148558d0e1af4f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\ab0079075e0a61c55148558d0e1af4f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\06f17dbc50d1820ee80d919d9cccb911\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\06f17dbc50d1820ee80d919d9cccb911\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\b77ec97a9c2b0086962472d4abfb381f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\b77ec97a9c2b0086962472d4abfb381f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\92b918dd9ad3267e9fe3ca30d9543534\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\92b918dd9ad3267e9fe3ca30d9543534\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\b2c1dd22e0db0df982df44898769d921\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\b2c1dd22e0db0df982df44898769d921\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\5bdf70a6fbd59b36e83c93e85cc18cee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\5bdf70a6fbd59b36e83c93e85cc18cee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\af7f7f9c040950393ccbba89af1f05ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\af7f7f9c040950393ccbba89af1f05ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\72d39f15f114e88a20ac71395d66dac7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\72d39f15f114e88a20ac71395d66dac7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\934b6a868ca08c3870db2c7ce3ee5f8b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\934b6a868ca08c3870db2c7ce3ee5f8b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\25a537767395af2c0eb6868b9ff7b2fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\25a537767395af2c0eb6868b9ff7b2fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\52e1cc309ba1e2ad7295b11dd91b1cb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\52e1cc309ba1e2ad7295b11dd91b1cb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\e7ab23c8d92a245ffd38d363e47fad97\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\e7ab23c8d92a245ffd38d363e47fad97\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\54a7e91f08168649476159249834de9f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\54a7e91f08168649476159249834de9f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\570fade17f521deb01b8d8c46c120ffd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\570fade17f521deb01b8d8c46c120ffd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\a472430423d30cf4ba276919935074a5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\a472430423d30cf4ba276919935074a5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\038b3e478714a726e3f4b22f1a87dc1a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\038b3e478714a726e3f4b22f1a87dc1a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\bf233f914c9ac4b677118b86b9395a4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\LEE SI YEON\.gradle\caches\transforms-2\files-2.1\bf233f914c9ac4b677118b86b9395a4c\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c7469481ceeb1b3824dc964cb3a1506e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c7469481ceeb1b3824dc964cb3a1506e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c108f373c4f8a7aae732f992c2c94068\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c108f373c4f8a7aae732f992c2c94068\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\0a5cb820d053e4abe383d08d0ccca853\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\0a5cb820d053e4abe383d08d0ccca853\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\74337c4eea88dff55cbc63849083dd81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\74337c4eea88dff55cbc63849083dd81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\606c80e141074e10931c8eba987b2efc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\606c80e141074e10931c8eba987b2efc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\01912150410817cf1538df57d007c4dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\01912150410817cf1538df57d007c4dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\0cf21220be18377c8f639146833d0adb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\0cf21220be18377c8f639146833d0adb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1d9179ff5606804bd690d45ad0f1155f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1d9179ff5606804bd690d45ad0f1155f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\5416dd72ca389f1b358417304075760c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\5416dd72ca389f1b358417304075760c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\378b3917293d41ad3dffbeb3e38f9103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\378b3917293d41ad3dffbeb3e38f9103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7c5fb549e5ab15d0429acee65807a681\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7c5fb549e5ab15d0429acee65807a681\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\4603e9f36cdca74ed8a93646c2b199a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\4603e9f36cdca74ed8a93646c2b199a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c969cd9dae29179daa54306ede434f79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c969cd9dae29179daa54306ede434f79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\5ddae378266d05c4e56e1429e197a0db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\5ddae378266d05c4e56e1429e197a0db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b7ac9bf85282c8dc45a245bda2f45ff4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b7ac9bf85282c8dc45a245bda2f45ff4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1be9457d92fa6048ec4d9447e953154e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\1be9457d92fa6048ec4d9447e953154e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c63c1c4b858c385f6898eb16c173178d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c63c1c4b858c385f6898eb16c173178d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7232b7cf8a5a97d5e219e783b9c7ac9a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7232b7cf8a5a97d5e219e783b9c7ac9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b8964622b6d455242df323c406a77b02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b8964622b6d455242df323c406a77b02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\531f68756d079e34d97cd67fefeb1f04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\531f68756d079e34d97cd67fefeb1f04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\e0a47aeb6dd008691eabec4205dac159\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\e0a47aeb6dd008691eabec4205dac159\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7c62c1069fb9166ab4a99adb6e7c7a89\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\7c62c1069fb9166ab4a99adb6e7c7a89\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\aec61dae0bf16a878269538468e4e473\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\aec61dae0bf16a878269538468e4e473\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\8ec650eb11d88de95f099099a433fc77\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\8ec650eb11d88de95f099099a433fc77\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\55a166ec33ad4f5acbb388254eac4bdb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\55a166ec33ad4f5acbb388254eac4bdb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\da2515d05c93f6ea11806e14e31b6998\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\da2515d05c93f6ea11806e14e31b6998\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LEE SI YEON\AndroidStudioProjects\Halttuetta-1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml

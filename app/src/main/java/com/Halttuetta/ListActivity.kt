@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_list.*
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,7 +16,7 @@ class ListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_list)
 
         val word = intent.getSerializableExtra("root") as Word
-
+        //val parent = word.getparent()
         for (k in 0 until word.getchildlist().size) {//2층 갯수만큼 반복
             val btn = Button(this)
 
@@ -39,6 +40,7 @@ class ListActivity : AppCompatActivity() {
                     //intent.putExtra("num", k)
                     startActivity(intent)
                 }
+                finish()
             }
             ll1_list.addView(btn)
         }
@@ -46,6 +48,21 @@ class ListActivity : AppCompatActivity() {
             val intent = Intent(this, AddActivity::class.java)
             intent.putExtra("root", word)
             startActivity(intent)
+            finish()
+        }
+
+
+        pre_list.setOnClickListener{
+            val intent = Intent(this, IntroActivity::class.java)
+            intent.putExtra("root", word.getparent())
+            startActivity(intent)
+            finish()
         }
     }
+    override fun onBackPressed() {
+
+        Toast.makeText(applicationContext, "비활성화", Toast.LENGTH_SHORT).show()
+
+    }
+
 }

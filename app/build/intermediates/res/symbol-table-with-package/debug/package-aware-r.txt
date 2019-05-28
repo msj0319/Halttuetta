@@ -748,6 +748,10 @@ id packed
 id parent
 id parentPanel
 id percent
+id pre_add
+id pre_intro
+id pre_list
+id pre_show
 id progress_circular
 id progress_horizontal
 id radio
@@ -783,6 +787,7 @@ id src_in
 id src_over
 id standard
 id start
+id startButton
 id submenuarrow
 id submit_area
 id tabMode
@@ -793,6 +798,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -841,6 +847,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add
+layout activity_intro
 layout activity_list
 layout activity_main
 layout activity_show
