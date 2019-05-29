@@ -33,6 +33,15 @@ open class Word :Serializable{
         return this.explain
     }
 
+    //이름 설정
+    fun setName(name : String) {
+        this.name = name
+    }
+
+    //설명 설정
+    fun setExplain(explain : String) {
+        this.explain = explain
+    }
     constructor() {}
     constructor(name: String, parent: Word) {                  //이름만 있는경우(부모 계층)
         this.name = name

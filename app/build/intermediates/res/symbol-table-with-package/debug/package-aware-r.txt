@@ -628,6 +628,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable halttuimg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -798,7 +799,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id time
 id title
 id titleDividerNoCustom
@@ -850,6 +850,7 @@ layout activity_add
 layout activity_intro
 layout activity_list
 layout activity_main
+layout activity_modify
 layout activity_show
 layout notification_action
 layout notification_action_tombstone

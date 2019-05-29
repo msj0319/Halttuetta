@@ -6,14 +6,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".IntroActivity"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-    <TextView
-            android:text="불꽃가능"
-            android:textSize="50dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_weight="1"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:textSize="50dp"
-            android:text="시작 버튼" android:id="@+id/startButton"/>
+    <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:srcCompat="@drawable/halttuimg"
+            android:id="@+id/startButton"/>
 </LinearLayout>

@@ -296,6 +296,10 @@
         "source": "C:\\Users\\jeehoon\\.gradle\\caches\\transforms-2\\files-2.1\\c7469481ceeb1b3824dc964cb3a1506e\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_halttuimg.png.flat",
+        "source": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\src\\main\\res\\drawable\\halttuimg.png"
+    },
+    {
         "merged": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\jeehoon\\.gradle\\caches\\transforms-2\\files-2.1\\b7ac9bf85282c8dc45a245bda2f45ff4\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
@@ -394,6 +398,10 @@
     {
         "merged": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
         "source": "C:\\Users\\jeehoon\\.gradle\\caches\\transforms-2\\files-2.1\\c7469481ceeb1b3824dc964cb3a1506e\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_modify.xml.flat",
+        "source": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\src\\main\\res\\layout\\activity_modify.xml"
     },
     {
         "merged": "C:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",

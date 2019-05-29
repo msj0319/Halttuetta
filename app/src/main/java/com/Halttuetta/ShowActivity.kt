@@ -10,6 +10,7 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_show.*
 import org.jetbrains.anko.toast
+import java.lang.String
 
 class ShowActivity : AppCompatActivity() {
 
@@ -45,6 +46,15 @@ class ShowActivity : AppCompatActivity() {
         pre_show.setOnClickListener{
             val intent = Intent(this, ListActivity::class.java)
             intent.putExtra("root", word.getparent())
+            startActivity(intent)
+            finish()
+        }
+        //수정하기 버튼 클릭시 리스너
+        Modify.setOnClickListener{
+            val intent = Intent(this, ModifyActivity::class.java)
+            intent.putExtra("root", word)
+
+
             startActivity(intent)
             finish()
         }

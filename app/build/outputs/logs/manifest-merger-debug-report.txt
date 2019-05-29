@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c7469481ceeb1b3824dc964cb3a1506e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\c108f373c4f8a7aae732f992c2c94068\AndroidManifest.xml:17:1-22:12
@@ -31,25 +31,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jeehoon\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\8ec650eb11d88de95f099099a433fc77\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\55a166ec33ad4f5acbb388254eac4bdb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\da2515d05c93f6ea11806e14e31b6998\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:3:11-35
 		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\dfe3f1b358bfeb7350f8c6b7f617f119\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jeehoon\.gradle\caches\transforms-2\files-2.1\b7ac9bf85282c8dc45a245bda2f45ff4\AndroidManifest.xml:22:5-94
@@ -70,36 +70,40 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jeehoon\.g
 		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:6:13-39
 	android:theme
 		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.Halttuetta.ModifyActivity
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:name
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:12:19-49
 activity#com.Halttuetta.IntroActivity
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:12:9-13:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:15:9-16:20
 	android:name
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:12:19-48
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:15:19-48
 activity#com.Halttuetta.AddActivity
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:14:9-15:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:17:9-18:20
 	android:name
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:14:19-46
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:17:19-46
 activity#com.Halttuetta.ListActivity
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:16:9-17:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:19:9-20:20
 	android:name
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:19:19-47
 activity#com.Halttuetta.ShowActivity
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:18:9-19:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:21:9-22:20
 	android:name
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:21:19-47
 activity#com.Halttuetta.MainActivity
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:20:9-26:20
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:23:9-29:20
 	android:name
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:20:19-47
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:23:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:22:17-68
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:25:17-68
 	android:name
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:24:17-76
+ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:27:17-76
 	android:name
-		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jeehoon\Desktop\Halttuetta-1\app\src\main\AndroidManifest.xml

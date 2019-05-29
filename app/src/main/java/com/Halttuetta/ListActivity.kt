@@ -17,15 +17,27 @@ class ListActivity : AppCompatActivity() {
 
         val word = intent.getSerializableExtra("root") as Word
         //val parent = word.getparent()
+
+
+        if(word.getname()==null){
+            hierarchyTag.text = "Main"
+        }else{
+            hierarchyTag.text = word.getname()
+        }
+
+
         for (k in 0 until word.getchildlist().size) {//2층 갯수만큼 반복
             val btn = Button(this)
 
             btn.layoutParams = ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
             )
             var word = word.getchildlist()[k]
+
             btn.text = word.getname()
+
+
 
 
             btn.setOnClickListener {
@@ -52,13 +64,14 @@ class ListActivity : AppCompatActivity() {
         }
 
 
-        pre_list.setOnClickListener{
-            val intent = Intent(this, IntroActivity::class.java)
+        pre_list.setOnClickListener {
+            val intent = Intent(this, ListActivity::class.java)
             intent.putExtra("root", word.getparent())
             startActivity(intent)
             finish()
         }
     }
+
     override fun onBackPressed() {
 
         Toast.makeText(applicationContext, "비활성화", Toast.LENGTH_SHORT).show()
