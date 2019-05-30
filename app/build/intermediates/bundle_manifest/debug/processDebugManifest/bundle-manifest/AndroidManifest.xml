@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.Halttuetta.SearchActivity" >
+        </activity>
         <activity android:name="com.Halttuetta.ModifyActivity" >
         </activity>
         <activity android:name="com.Halttuetta.IntroActivity" >

@@ -16,17 +16,15 @@ class ListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_list)
 
         val word = intent.getSerializableExtra("root") as Word
-        //val parent = word.getparent()
 
-
-        if(word.getname()==null){
+        if (word.getname() == null) {
             hierarchyTag.text = "Main"
-        }else{
+        } else {
             hierarchyTag.text = word.getname()
         }
 
 
-        for (k in 0 until word.getchildlist().size) {//2층 갯수만큼 반복
+        for (k in 0 until word.getchildlist().size) {
             val btn = Button(this)
 
             btn.layoutParams = ViewGroup.LayoutParams(
@@ -37,19 +35,14 @@ class ListActivity : AppCompatActivity() {
 
             btn.text = word.getname()
 
-
-
-
             btn.setOnClickListener {
-                if (word.getchildlist().size == 0) {
+                if (word.getexplain() != "") {
                     val intent = Intent(this, ShowActivity::class.java)
-                    intent.putExtra("root", word)//루트의 자식의 0번 1번 2번의 word를 버튼에 넘긴다
-                    //intent.putExtra("num", k)
+                    intent.putExtra("root", word)
                     startActivity(intent)
                 } else {
                     val intent = Intent(this, ListActivity::class.java)
-                    intent.putExtra("root", word)//루트의 자식의 0번 1번 2번의 word를 버튼에 넘긴다
-                    //intent.putExtra("num", k)
+                    intent.putExtra("root", word)
                     startActivity(intent)
                 }
                 finish()
@@ -63,12 +56,19 @@ class ListActivity : AppCompatActivity() {
             finish()
         }
 
-
         pre_list.setOnClickListener {
-            val intent = Intent(this, ListActivity::class.java)
-            intent.putExtra("root", word.getparent())
-            startActivity(intent)
-            finish()
+            if (word.getparent()?.getparent() == null) {
+                val intent = Intent(this, IntroActivity::class.java)
+                intent.putExtra("root", word.getparent())
+                startActivity(intent)
+                finish()
+            } else {
+                val intent = Intent(this, ListActivity::class.java)
+                intent.putExtra("root", word.getparent())
+                startActivity(intent)
+                finish()
+            }
+
         }
     }
 

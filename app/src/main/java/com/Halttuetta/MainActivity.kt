@@ -14,18 +14,25 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var root = Word()
-        var nadan = Word()// 나만의 단어장
 
         CreateTree(root)
 
         startButton.setOnClickListener {
-            val intent = Intent(this,IntroActivity::class.java) //메인에다 보낼 단어 객체 보내기
-            intent.putExtra("root", root)
+            //화면을 터치하면 다음 화면으로 넘어간다
+            if (root != null) {
+                Toast.makeText(applicationContext, "단어 불러오기 성공!", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(applicationContext, "단어 불러오기 실패", Toast.LENGTH_SHORT).show()
+            }
 
+
+            val intent = Intent(this, IntroActivity::class.java)
+            intent.putExtra("root", root)//IntroActivity에 root 객체 보내기기
             startActivity(intent)
             finish()
         }
 
     }
+
 
 }

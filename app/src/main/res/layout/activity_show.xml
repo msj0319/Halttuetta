@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-        <LinearLayout
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        android:orientation="vertical">
 
     <TextView
             android:layout_height="wrap_content"
@@ -15,20 +15,20 @@
             android:text="단어"/>
 
 
-            <ScrollView
-                    android:layout_height="350dp"
-                    android:layout_width="match_parent">
+    <ScrollView
+            android:layout_height="350dp"
+            android:layout_width="match_parent">
 
-                <TextView
-                        android:layout_height="450dp"
-                        android:layout_width="match_parent"
-                        android:id="@+id/tv_show2"
-                        android:layout_margin="20dp"
-                        android:textSize="20dp"
-                        android:text="@string/word"
-                        android:layout_marginTop="30dp"/>
+        <TextView
+                android:layout_height="450dp"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_show2"
+                android:layout_margin="20dp"
+                android:textSize="20dp"
+                android:text="@string/word"
+                android:layout_marginTop="30dp"/>
 
-            </ScrollView>
+    </ScrollView>
 
     <View android:layout_width="wrap_content" android:layout_height="wrap_content"
           android:layout_weight="1"></View>

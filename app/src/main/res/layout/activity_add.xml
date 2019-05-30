@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-        android:orientation="vertical"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <TextView
@@ -22,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/WordExplain" android:textSize="36sp"/>
     <EditText
-            android:hint="들어갈 단어의 설명 입력"
+            android:hint="들어갈 단어의 설명 입력해주세요.\n(입력하지 않으면 과목이 생성됩니다)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"

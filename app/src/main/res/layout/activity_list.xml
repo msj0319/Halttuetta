@@ -16,6 +16,7 @@
                   android:textSize="30dp"
                   android:text="단어 계층"
                   android:id="@+id/hierarchyTag"/>
+
         <Button
                 android:text="추가"
                 android:layout_width="wrap_content"
@@ -24,12 +25,7 @@
         <Button
                 android:text="이전"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/pre_list" android:layout_weight="1"/>
-        <!--<view android:layout_width="0dp"
-              android:layout_height="0dp"
-        android:layout_weight="1">
-
-        </view>-->
+                android:layout_height="wrap_content" android:id="@+id/pre_list"/>
     </LinearLayout>
 
     <LinearLayout

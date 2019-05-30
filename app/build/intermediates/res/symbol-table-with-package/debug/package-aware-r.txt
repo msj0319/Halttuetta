@@ -680,6 +680,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addBtn1
+id addBtn_intro
 id alertTitle
 id all
 id always
@@ -688,6 +689,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bt_search
+id bt_searchback
 id buttonPanel
 id center
 id center_horizontal
@@ -709,6 +712,7 @@ id direct
 id disableHome
 id edit_query
 id end
+id et_search
 id expand_activities_button
 id expanded_menu
 id fill
@@ -735,6 +739,7 @@ id listMode
 id list_item
 id ll1
 id ll1_list
+id ll_search
 id message
 id middle
 id multiply
@@ -750,7 +755,6 @@ id parent
 id parentPanel
 id percent
 id pre_add
-id pre_intro
 id pre_list
 id pre_show
 id progress_circular
@@ -763,13 +767,13 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id search
 id search_badge
 id search_bar
 id search_button
 id search_close_btn
 id search_edit_frame
 id search_go_btn
+id search_list
 id search_mag_icon
 id search_plate
 id search_src_text
@@ -851,6 +855,7 @@ layout activity_intro
 layout activity_list
 layout activity_main
 layout activity_modify
+layout activity_search
 layout activity_show
 layout notification_action
 layout notification_action_tombstone

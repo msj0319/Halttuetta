@@ -1,6 +1,5 @@
 package com.Halttuetta
 
-import android.app.ProgressDialog.show
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -8,11 +7,7 @@ import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.Button
-import android.widget.Toast
-import com.Halttuetta.Project.CreateTree
 import kotlinx.android.synthetic.main.activity_intro.*
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_show.*
 
 class IntroActivity : AppCompatActivity() {
 
@@ -31,29 +26,26 @@ class IntroActivity : AppCompatActivity() {
             btn.text = word.getname()
 
             btn.setOnClickListener {
-                if(word.getchildlist().size==0) {
+                if (word.getchildlist().size == 0) {
                     val intent = Intent(this, ShowActivity::class.java)
-                    intent.putExtra("root", word)//루트의 자식의 0번 1번 2번의 word를 버튼에 넘긴다
-                    //intent.putExtra("num", k)
+                    intent.putExtra("root", word)
                     startActivity(intent)
-                }
-                else{
+                } else {
                     val intent = Intent(this, ListActivity::class.java)
-                    intent.putExtra("root", word)//루트의 자식의 0번 1번 2번의 word를 버튼에 넘긴다
-                    //intent.putExtra("num", k)
+                    intent.putExtra("root", word)
                     startActivity(intent)
                 }
-                //finish()
             }
             ll1.addView(btn)
         }
 
+        search_list.setOnClickListener {
+            val intent = Intent(this, SearchActivity::class.java)
+            intent.putExtra("root", root)
+            startActivity(intent)
+        }
+
     }
-
-
-
-
-
 
 
 }
