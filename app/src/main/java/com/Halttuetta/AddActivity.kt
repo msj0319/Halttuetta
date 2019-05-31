@@ -13,15 +13,15 @@ class AddActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add)
         var word = intent.getSerializableExtra("root") as Word
 
-        WordAddSubmit(word)
+        WordAddSubmit(word)//단어 추가 함수 호출
 
         pre_add.setOnClickListener {
-            if (word.getparent()?.getparent() == null) {
+            if (word.getparent()?.getparent() == null) {//첫 화면이라면
                 val intent = Intent(this, IntroActivity::class.java)
                 intent.putExtra("root", word.getparent())
                 startActivity(intent)
                 finish()
-            } else {
+            } else {//중간 계층이라면
                 val intent = Intent(this, ListActivity::class.java)
                 intent.putExtra("root", word.getparent())
                 startActivity(intent)
@@ -31,24 +31,38 @@ class AddActivity : AppCompatActivity() {
 
     }
 
+
+    //함수 구현
     fun WordAddSubmit(word: Word) {
         Submit_btn.setOnClickListener {
-            var name = WordNameEdit?.text.toString()
-            var explain = WordExplainEdit?.text.toString()
+            var name = WordNameEdit?.text.toString()//이름을 받아온다
+            var explain = WordExplainEdit?.text.toString()//설명을 받아온다
 
 
-            if (name == "" && explain == "") {
+            if (name == "" && explain == "") {//둘다 빈칸이라면
                 Toast.makeText(applicationContext, "다시 입력해 주세요", Toast.LENGTH_SHORT).show()
             } else {
-                var addWord0 = Word(name, explain, word)
-                word.addlist(addWord0)
-                //사용자에게 입력받은 이름 설명 객체화
 
-                val intent = Intent(this, ListActivity::class.java) //메인에다 보낼 단어 객체 보내기
-                intent.putExtra("root", word)
+                if (explain == "") {//계층이라면 설명에 데이터를 넣지 않는다
+                    var addWord0 = Word(name, "", word)//사용자에게 입력받은 이름 객체화
+                    word.addlist(addWord0)//word에 추가
 
-                startActivity(intent)
-                finish()
+                    val intent = Intent(this, ListActivity::class.java) //메인에다 보낼 단어 객체 보내기
+                    intent.putExtra("root", word)
+
+                    startActivity(intent)
+                    finish()
+                } else {
+                    var addWord0 = Word(name, explain, word)//사용자에게 입력받은 이름 설명 객체화
+                    word.addlist(addWord0)//word에 추가
+
+                    val intent = Intent(this, ListActivity::class.java) //메인에다 보낼 단어 객체 보내기
+                    intent.putExtra("root", word)
+
+                    startActivity(intent)
+                    finish()
+                }
+
             }
 
 

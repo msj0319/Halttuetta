@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content" android:id="@+id/addBtn_intro"/>
         <Button android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="10dp"
+
                 android:text="검색버튼" android:id="@+id/search_list"/>
     </LinearLayout>
 
@@ -37,7 +37,8 @@
                 android:layout_height="match_parent">
             <LinearLayout android:layout_width="match_parent"
                           android:layout_height="wrap_content"
-                          android:orientation="vertical" android:id="@+id/ll1"/>
+                          android:orientation="vertical"
+                          android:id="@+id/ll1"/>
         </ScrollView>
     </LinearLayout>
 </LinearLayout>

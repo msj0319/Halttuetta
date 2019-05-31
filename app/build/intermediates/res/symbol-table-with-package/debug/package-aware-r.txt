@@ -692,6 +692,7 @@ id bottom
 id bt_search
 id bt_searchback
 id buttonPanel
+id cancel
 id center
 id center_horizontal
 id center_vertical
@@ -701,6 +702,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id confirm
 id content
 id contentPanel
 id custom

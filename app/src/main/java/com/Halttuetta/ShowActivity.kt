@@ -8,14 +8,14 @@ import com.Halttuetta.Hide.Companion.ShowHide
 import kotlinx.android.synthetic.main.activity_show.*
 
 
-class ShowActivity : AppCompatActivity() {
+class ShowActivity : AppCompatActivity() {//보여주기 액티비티
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_show)
 
         var word = intent.getSerializableExtra("root") as Word
-        var count = 0
+        var count = 0//숨기기 기능 구현을 위한 변수
 
         tv_show1.text = word.getname()
         tv_show2.text = word.getexplain()
@@ -32,7 +32,7 @@ class ShowActivity : AppCompatActivity() {
             }
         }
 
-        Delete.setOnClickListener {
+        Delete.setOnClickListener {//삭제 구현
             var word_delete = delete.deleteStrong(word)!!
 
             word.addlist(word_delete)
@@ -43,14 +43,16 @@ class ShowActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
-        pre_show.setOnClickListener {
+
+        pre_show.setOnClickListener {//보여주기 버튼리스너
             val intent = Intent(this, ListActivity::class.java)
             intent.putExtra("root", word.getparent())
             startActivity(intent)
             finish()
         }
-        //수정하기 버튼 클릭시 리스너
-        Modify.setOnClickListener {
+
+
+        Modify.setOnClickListener {//수정하기 버튼리스너
             val intent = Intent(this, ModifyActivity::class.java)
             intent.putExtra("root", word)
 

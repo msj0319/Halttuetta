@@ -11,29 +11,31 @@ import kotlinx.android.synthetic.main.activity_show.tv_show1
 import kotlinx.android.synthetic.main.activity_show.tv_show2
 import kotlin.String as String1
 
-class ModifyActivity : AppCompatActivity() {
+class ModifyActivity : AppCompatActivity() {//수정 액티비티
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_modify)
 
-        var word = intent.getSerializableExtra("root") as Word // word객체 액티비티에서 가져오기
+        var word = intent.getSerializableExtra("root") as Word
 
-        tv_show1.text = word.getname() // 이름칸에 해당 word의 이름 출력
-        tv_show2.text = word.getexplain() // 설명칸에 해당 word의 설명 출력
+        tv_show1.text = word.getname() // 이름칸에 해당 word의 name 출력
+        tv_show2.text = word.getexplain() // 설명칸에 해당 word의 explain 출력
 
-        Delete.setOnClickListener {
+        cancel.setOnClickListener {
             //취소버튼
+
 
             val intent = Intent(this, ShowActivity::class.java)
             intent.putExtra("root", word)
 
-            startActivity(intent) //인텐트 실행
+            startActivity(intent)
             finish()
         }
 
-        Hide.setOnClickListener {
+        confirm.setOnClickListener {
             //확인버튼
+
             val intent = Intent(this, ShowActivity::class.java)
 
             word.setName(String.valueOf(tv_show1.text)) //tv_show1.getText() 코틀린 상에서 해당 코드 동작시 캐스트오류(자료형 오류)발생, String.valueOf로 한번 더 감싸준다

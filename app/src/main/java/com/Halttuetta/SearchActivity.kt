@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_search.*
 import kotlinx.android.synthetic.main.activity_show.*
 import java.util.*
 
-class SearchActivity : AppCompatActivity() {
+class SearchActivity : AppCompatActivity() {//검색 액티비티
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,23 +21,23 @@ class SearchActivity : AppCompatActivity() {
         val word = intent.getSerializableExtra("root") as Word
 
         bt_search.setOnClickListener {
-            ll_search.removeAllViews()
+            ll_search.removeAllViews()//검색 리스트 초기화
 
-            var searchWord = java.lang.String.valueOf(et_search.text)
+            var searchWord = java.lang.String.valueOf(et_search.text)//edittext에서 검색할 단어를 받아온다
 
-            Search(word, searchWord)
+            Search(word, searchWord)//word에서 입력된 단어를 찾는다
         }
 
         bt_searchback.setOnClickListener {
             val intent = Intent(this, IntroActivity::class.java)
-            intent.putExtra("root", word)//루트의 자식의 0번 1번 2번의 word를 버튼에 넘긴다
-            //intent.putExtra("num", k)
+            intent.putExtra("root", word)
             startActivity(intent)
         }
 
     }
 
 
+    //함수 구현
     fun SearchWord(word: Word, List: Vector<Word>, key: String) {
         if (word.getname()!!.contains(key)) {
             List.add(word)
@@ -50,22 +50,21 @@ class SearchActivity : AppCompatActivity() {
         }
     }
 
-    fun Search(root: Word, key: String) {
-        //Key 값 받아야함
+    fun Search(root: Word, key: String) {//검색 함수
 
-        val List = Vector<Word>()
-        for (i in 0 until root.getchildlist().size) {
+        val List = Vector<Word>()//찾은 단어를 저장 할 Vecter 선언
 
+        for (i in 0 until root.getchildlist().size) {//단어를 찾아 List에 넣는다
             SearchWord(root.getchildlist()[i], List, key)
         }
 
-        if (List.size == 0) {
+        if (List.size == 0) {//만약 List 사이즈가 0이라면==단어가 없다면
             Toast.makeText(applicationContext, "찾는 단어가 없습니다.", Toast.LENGTH_SHORT).show()
-            return
+            return//찾는 단어가 없으므로 종료
         }
 
-        //보여주기
-        for (k in 0 until List.size) {
+
+        for (k in 0 until List.size) {//List에서 단어를 받아 버튼을 만들어 준다
             val btn = Button(this)
 
             btn.layoutParams = ViewGroup.LayoutParams(

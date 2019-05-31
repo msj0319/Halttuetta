@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
 
         var root = Word()
 
-        CreateTree(root)
+        CreateTree(root)//기초 트리 생성
 
-        startButton.setOnClickListener {
-            //화면을 터치하면 다음 화면으로 넘어간다
+        startButton.setOnClickListener {//화면을 터치하면 다음 화면으로 넘어간다
+
             if (root != null) {
                 Toast.makeText(applicationContext, "단어 불러오기 성공!", Toast.LENGTH_SHORT).show()
             } else {
