@@ -54,41 +54,47 @@ class SearchActivity : AppCompatActivity() {//검색 액티비티
 
         val List = Vector<Word>()//찾은 단어를 저장 할 Vecter 선언
 
-        for (i in 0 until root.getchildlist().size) {//단어를 찾아 List에 넣는다
-            SearchWord(root.getchildlist()[i], List, key)
-        }
+        if (key == "") {
+            Toast.makeText(applicationContext, "검색 할 단어를 입력해 주세요", Toast.LENGTH_SHORT).show()
 
-        if (List.size == 0) {//만약 List 사이즈가 0이라면==단어가 없다면
-            Toast.makeText(applicationContext, "찾는 단어가 없습니다.", Toast.LENGTH_SHORT).show()
-            return//찾는 단어가 없으므로 종료
-        }
-
-
-        for (k in 0 until List.size) {//List에서 단어를 받아 버튼을 만들어 준다
-            val btn = Button(this)
-
-            btn.layoutParams = ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT
-            )
-
-            btn.text = List[k].getname()
-            var word = List[k]
-
-            btn.setOnClickListener {
-                if (word.getexplain() != "") {
-                    val intent = Intent(this, ShowActivity::class.java)
-                    intent.putExtra("root", word)
-                    startActivity(intent)
-                } else {
-                    val intent = Intent(this, ListActivity::class.java)
-                    intent.putExtra("root", word)
-                    startActivity(intent)
-                }
-                finish()
+        } else {
+            for (i in 0 until root.getchildlist().size) {//단어를 찾아 List에 넣는다
+                SearchWord(root.getchildlist()[i], List, key)
             }
-            ll_search.addView(btn)
+
+            if (List.size == 0) {//만약 List 사이즈가 0이라면==단어가 없다면
+                Toast.makeText(applicationContext, "찾는 단어가 없습니다.", Toast.LENGTH_SHORT).show()
+                return//찾는 단어가 없으므로 종료
+            }
+
+
+            for (k in 0 until List.size) {//List에서 단어를 받아 버튼을 만들어 준다
+                val btn = Button(this)
+
+                btn.layoutParams = ViewGroup.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                    ViewGroup.LayoutParams.WRAP_CONTENT
+                )
+
+                btn.text = List[k].getname()
+                var word = List[k]
+
+                btn.setOnClickListener {
+                    if (word.getexplain() != "") {
+                        val intent = Intent(this, ShowActivity::class.java)
+                        intent.putExtra("root", word)
+                        startActivity(intent)
+                    } else {
+                        val intent = Intent(this, ListActivity::class.java)
+                        intent.putExtra("root", word)
+                        startActivity(intent)
+                    }
+                    finish()
+                }
+                ll_search.addView(btn)
+            }
         }
+
     }
 
     override fun onBackPressed() {

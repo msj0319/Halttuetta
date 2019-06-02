@@ -18,7 +18,7 @@ class AddActivity : AppCompatActivity() {
         pre_add.setOnClickListener {
             if (word.getparent()?.getparent() == null) {//첫 화면이라면
                 val intent = Intent(this, IntroActivity::class.java)
-                intent.putExtra("root", word.getparent())
+                intent.putExtra("root", word)
                 startActivity(intent)
                 finish()
             } else {//중간 계층이라면
@@ -41,7 +41,11 @@ class AddActivity : AppCompatActivity() {
 
             if (name == "" && explain == "") {//둘다 빈칸이라면
                 Toast.makeText(applicationContext, "다시 입력해 주세요", Toast.LENGTH_SHORT).show()
+
+            } else if (name == "") {
+                Toast.makeText(applicationContext, "이름을 입력해 주세요", Toast.LENGTH_SHORT).show()
             } else {
+
 
                 if (explain == "") {//계층이라면 설명에 데이터를 넣지 않는다
                     var addWord0 = Word(name, "", word)//사용자에게 입력받은 이름 객체화

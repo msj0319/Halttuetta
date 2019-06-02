@@ -1,4 +1,4 @@
-#Fri May 31 16:41:12 KST 2019
+#Mon Jun 03 00:52:25 KST 2019
 base.0=C\:\\Users\\jeehoon\\Desktop\\Halttuetta-1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex
