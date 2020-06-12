@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+            android:text="단어 이름"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/WordName"
+            android:textSize="36sp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="단어의 이름을 입력하세요"
+            android:ems="10"
+            android:id="@+id/WordNameEdit"/>
+    <TextView
+            android:text="단어 설명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/WordExplain" android:textSize="36sp"/>
+    <EditText
+            android:hint="들어갈 단어의 설명 입력해주세요.\n(입력하지 않으면 과목이 생성됩니다)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:gravity="start|top"
+            android:ems="10"
+            android:id="@+id/WordExplainEdit"/>
+    <Button
+            android:text="단어 추가하기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Submit_btn"/>
+    <Button
+            android:text="이전"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/pre_add"/>
+</LinearLayout>

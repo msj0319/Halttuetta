@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+            android:id="@+id/tv_show1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="단어"
+            android:textColor="#3B030303"
+            android:textSize="50dp"/>
+
+
+    <ScrollView
+            android:layout_height="350dp"
+            android:layout_width="match_parent">
+
+        <EditText
+                android:id="@+id/tv_show2"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/word"
+                android:textColor="#38030303"
+                android:textSize="20dp"/>
+
+    </ScrollView>
+
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:layout_weight="1"></View>
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+    >
+
+
+        <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="취소"/>
+
+        <Button
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="확인"/>
+
+    </LinearLayout>
+
+</LinearLayout>
